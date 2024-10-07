@@ -27,7 +27,7 @@ public class FoodItemService {
     }
 
     public Optional<FoodItem> findByName(String name) {
-        return foodItemRepository.findByNameIgnoreCase(name); // Case-insensitive search
+        return foodItemRepository.findByNameIgnoreCase(name);
     }
 
     public FoodItem save(FoodItem foodItem) {
