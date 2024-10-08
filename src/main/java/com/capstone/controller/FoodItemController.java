@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = {"http://localhost:3000", "https://capstone-nvrdx59lb-hazashbaigs-projects.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://capstone-six-silk.vercel.app"})
 @RestController
 @RequestMapping("/api/food-items")
 public class FoodItemController {
