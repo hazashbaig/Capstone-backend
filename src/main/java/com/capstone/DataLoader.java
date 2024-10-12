@@ -18,7 +18,7 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // Create some sample food items with correct constructor arguments
         FoodItem bread = new FoodItem(null, "Bread", 79, 2.7, 14.0, 1.0);
-        FoodItem apple = new FoodItem(null, "Apple", 95, 0.5, 25.0, 0.3);
+        FoodItem apple = new FoodItem(null, "Apples", 95, 0.5, 25.0, 0.3);
         FoodItem rice = new FoodItem(null, "Rice", 206, 4.3, 45.0, 0.4);
         FoodItem roti = new FoodItem(null, "Roti", 71, 2.7, 15.0, 0.4);
         FoodItem chocolate = new FoodItem(null, "Chocolate", 208, 2.2, 24.0, 12.0);
